@@ -51,6 +51,6 @@ p {
 .icons {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
   padding-top: 50px;
 }
