@@ -1,0 +1,18 @@
+
+body {
+    font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+    text-align: center;
+    margin: 20px;
+}
+
+  
+ img {
+  height: 400px;
+  width: 300px;
+    }
+  .img {
+    display: flex;
+    justify-content: center;
+  }

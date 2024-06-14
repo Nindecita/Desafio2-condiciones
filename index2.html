@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedido de Stickers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style2.css" />
+  </head>
+  <body>
+    <h1>Pide tus stickers, sólo puedes un máximo de 10</h1>
+    <div class="box">
+      <div class="sticker">
+        <img src="./assets/img/la-comunidad-del-anillo.jpg" alt="Sticker 1" />
+        <input type="number" id="sticker1" min="0" value="0" />
+      </div>
+      <div class="sticker">
+        <img src="./assets/img/las-dos-torres.jpg" alt="Sticker 2" />
+        <input type="number" id="sticker2" min="0" value="0" />
+      </div>
+      <div class="sticker">
+        <img src="./assets/img/el-retorno-del-rey.jpg" alt="Sticker 3" />
+        <input type="number" id="sticker3" min="0" value="0" />
+      </div>
+    </div>
+    <div class="btn">
+      <button onclick="calcularStickers()">Calcular</button>
+    </div>
+      <div>
+      <p id="resultado"></p>
+    </div>
+    
+    <script src="./assets/js/script2.js"></script>
+  </body>
+</html>

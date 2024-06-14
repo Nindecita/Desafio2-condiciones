@@ -1,0 +1,30 @@
+body {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  text-align: center;
+  margin: 20px;
+}
+
+.select-container {
+  margin: 20px;
+}
+
+select {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
